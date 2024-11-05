@@ -12,15 +12,4 @@ module.exports = {
       mock: true,
     },
   },
-  zod: {
-    input: {
-      target: "../openapi/openapi.yaml",
-    },
-    output: {
-      mode: "tags",
-      target: "./src/zod",
-      client: "zod",
-      fileExtension: ".zod.ts",
-    },
-  },
 };
